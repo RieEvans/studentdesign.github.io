@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>ICCT Colleges</title>
+
+</head>
+<body>
+    <section class="introduction2">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Programs</a></li>
+                    <li><a href="admission.html">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="course-we-offer">
+            <h1>BACHELOR / DEGREE PROGRAMS</h1>
+        </div>
+
+    </section>
+
+    <!------------COURSE LIST CONTENT---------->
+
+    <section class="course-list">
+
+        <div class="course-row">
+
+            <div class="course-column">
+
+                <div class="course-program">
+                    <h4>College of Arts & Sciences</h4>
+                    <ul>
+                        <li>ABCom Bachelor of Arts om Communication (MassCom)</li>
+                        <li>Bachelor of Arts in English</li>
+                        <li>Bachelor of Science in Mathematics</li>
+                        <li>Bachelor of Sciences in Psychology</li>
+                    </ul>
+
+                    <h4>College of Health Sciences</h4>
+                    <ul>
+                        <li>Bachelor of Science in Medical Technology</li>
+                        <li>Bachelor of Science in Nursing</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="course-column">
+
+                <div class="course-program">
+                    <h4>College of Engineering & Digital Technology</h4>
+                    <ul>
+                        <li>Bachelor of Science in Computer Engineering <br>
+                        (Specializes in CISCO Networking and Robotics) </li>
+
+                        <li>Bachelor of Science in Electronics Engineering</li>
+                    </ul>
+
+                    <h4>College of Criminology & Administration</h4>
+                    <ul>
+                        <li>Bachelor of Science in Criminology</li>
+                        <li>Bachelor of Science in Industrial Security Management</li>
+                        <li>Bachelor of Science in Public Administration</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-column">
+
+                <div class="course-program">
+                    <h4>College of Computer Studies</h4>
+                    <ul>
+                        <li>Associate in Computer Technology</li>
+                        <li>Bachelor of Science in Computer Science</li>
+                        <li>Bachelor of Science in Information Technology</li>
+                        <li>Bachelor of Science in Information System</li>
+                    </ul>
+
+                    <h4>College of Education</h4>
+                    <ul>
+                        <li>Bachelor of Science in Secondary Education</li>
+                        <li>Major in English</li>
+                        <li>Major in Filipino</li>
+                        <li>Major in Mathematics</li>
+                        <li>Major in Science</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!------------ END OF COURSE LIST CONTENT---------->
+
+
+
+    <!---------------FOOTER-------------->
+
+    <section class="footer">
+        <h1></h1>
+
+        <div class="row">
+
+            <div class="footer-col">
+                <img src="/images/footer-logo-01.png">
+
+                <div>
+                    <p>ICCT Colleges, is a tertiary education 
+                        provider with campuses located in the Province of Rizal, Philippines.
+                    </p>
+                    <a href="http://icct.edu.ph/about/">Read More</a>
+                </div>
+                
+                <div class="footer-icon">
+                    <a href="https://twitter.com/tweeticct"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/icctfan/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCTltvb1NkuNRv3ITN5sRe6w"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                
+
+            </div>
+
+            <div class="footer-col2">
+                <h1>Important Links</h1>
+
+                <div class="nav-links2">
+                   <nav>
+                        <ul>
+                            <li><a href="">Campuses</a></li>
+                            <li><a href="">Courses</a></li>
+                            <li><a href="">Download Links</a></li>
+                            <li><a href="">Internships</a></li>
+                        </ul>
+                   </nav>
+                </div>
+
+            </div>
+
+            <div class="footer-col3">
+                <h1>Contact Us</h1>
+
+                <div class="location">
+                    <i class="fa fa-location-dot"></i>
+                    <p>ICCT Building. V.V. Soliven Ave.II, Cainta, Rizal,Philippines 1900</p>
+                    <i class="fa fa-phone">  </i>
+                    <p>(632) 8249.4228</p>
+                    <i class="fa fa-envelope"> </i>
+                    <p>info@icct.edu.ph</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="footer-line">
+
+            <div class="row-line">
+                <p>ICCT Colleges Foundation Inc. © All Rights Reserved.2022</p>
+            </div>
+
+            <div class="row-line2">
+                <p>By ICCT web team</p>
+            </div>  
+            
+        </div>
+
+    </section>
+
+    <!---------------END OF FOOTER-------------->
+
+    
+    
+
+
+    <!-------JAVASCRIPT TOGLE----------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0px"
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+
+</body>
+</html>
